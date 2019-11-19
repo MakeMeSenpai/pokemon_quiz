@@ -11,9 +11,20 @@ class quiz():
 
     def q1(self):
         # Answer: It's Pikachu! 
-        y = input("Which pokemon is a rat, with a chubby belly (in the original card game)? \n"
-        "A. It's Pikachu! \n"
-        "B. It's Rattata! \n")
+        while True:
+            y = input("Which pokemon is a rat, with a chubby belly (in the original card game)? \n"
+            "A. It's Pikachu! \n"
+            "B. It's Rattata! \n")
+            y = y.lower()
+            if y == True and y == "a":
+                self.score += 1
+                return False
+            elif y == True and y == "b":
+                return False
+            else:
+                print("Sorry, what was that?")
+                return True
+
 
     def q2(self):
         # Answer: It's Psyduck!
