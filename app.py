@@ -4,7 +4,7 @@ class quiz():
 
     def start(self):
         # Subject: What's that pokemon?!
-        y = input("What's that Pokemon?!? \n"
+        print("What's that Pokemon?!? \n"
         "Do you know them all? \n"
         "Answer by entering a b c d or e")
         
@@ -15,11 +15,11 @@ class quiz():
             y = input("Which pokemon is a rat, with a chubby belly (in the original card game)? \n"
             "A. It's Pikachu! \n"
             "B. It's Rattata! \n")
-            y = y.lower()
-            if y == True and y == "a":
+            z = y.lower()
+            if z == True and z == "a":
                 self.score += 1
                 return False
-            elif y == True and y == "b":
+            elif z == True and z == "b":
                 return False
             else:
                 print("Sorry, what was that?")
