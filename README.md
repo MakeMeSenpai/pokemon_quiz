@@ -1,2 +1,2 @@
-# What's that Pokemon?!
+# Who's that Pokemon?!
 A simple terminal based program quiz to take for fun! 
